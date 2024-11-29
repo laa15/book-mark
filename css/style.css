@@ -1,0 +1,91 @@
+html{
+    scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    scroll-padding: 50px;
+}
+*{
+    box-sizing: border-box;   
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(247, 236, 221);
+}
+
+::selection{
+    background: #fec260;
+    color: aliceblue;
+}
+h2,h3,h4{
+    font-family: "Righteous", cursive;
+}
+#header{
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;  
+}
+#header h1{
+position: relative;
+width: 100%;
+  
+}
+#header h1::before{
+    content: "";
+    width:100% ;
+    background: #fec260;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    z-index: -1;
+    transition: all 0.5s;
+}
+#header h1:hover::before{
+    height: 100%;
+}
+#sitebody h2{
+background-image: linear-gradient(107deg, rgba(34,195,101,1) 14%, rgba(90,193,87,1) 28%, rgba(135,191,75,1) 41%, rgba(154,190,70,1) 55%, rgba(198,189,59,1) 79%, rgba(253,187,45,1) 100%);
+background-clip: text;
+color: transparent;
+}
+
+#sitebody label {
+     font-family: "PT Sans Caption" , sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+     
+}
+
+#submit button{
+   background-color: #D1512D;
+   color: aliceblue;
+   width: 15%;
+   height: 10%;
+}
+#submit button:hover{
+    background-color: #c0705a;
+ }
+
+.card{
+   top: 50%;
+   left: 50%;
+   transform: translate( -50% , -50%);
+   
+}
+
+.my-tittle{
+     font-family: "Bree Serif" serif !important;
+     font-size: 21px !important;
+     font-weight: 400 !important;
+}
+
+.icona{
+    color: #D1512D;
+}
+
+
+
+
+
+
+
